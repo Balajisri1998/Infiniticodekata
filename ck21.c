@@ -9,11 +9,6 @@ void main()
  printf("Invalid");
  exit(1);
  }
- if(k==0)
- {
-  printf("1");
-  exit(1);
- }
   for(i=0;i<k;i++)
  {
   pow*=n;
