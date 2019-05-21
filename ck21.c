@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<stdlib.h>
 void main()
 {
  int n,k,i,pow=1;
