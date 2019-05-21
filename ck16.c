@@ -6,7 +6,7 @@ void main()
 {
     char a[100];
     int len,i=0,b,j=0,count;
-    gets(a)
+    gets(a);
     len=strlen(a);
     for(j=0;j<len;j++)
      {
