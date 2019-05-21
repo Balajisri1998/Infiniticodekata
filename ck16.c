@@ -18,7 +18,7 @@ void main()
      }
      b=atoi(a);
      if(((b%4==0)&&(b%100!=0))||(b%400)==0)
-     printf("Yes");
+     printf("yes");
      else
-     printf("No");
+     printf("no");
 }
