@@ -1,11 +1,20 @@
 #include<stdio.h>
+#include<stdlib.h>
 void main()
 {
  int n,k,i,pow=1;
  scanf("%d %d",&n,&k);
- if(k<=0)
+ if(k<0)
+ {
  printf("Invalid");
- for(i=0;i<k;i++)
+ exit(1);
+ }
+ if(k==0)
+ {
+  printf("1");
+  exit(1);
+ }
+  for(i=0;i<k;i++)
  {
   pow*=n;
  }
