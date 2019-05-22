@@ -25,13 +25,13 @@ for(i=0;i<n;i++)
 }
 for(i=0;i<n;i++)
 {
-if(z>1)
+if(z>=1)
 {
-printf("%lu",a[i]);
+printf("% lu",a[i]);
 }
 else
 {
-printf("%lu ",a[i]);
+printf("%lu",a[i]);
 z=z+1;
 }
 }
