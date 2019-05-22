@@ -25,5 +25,5 @@ void main()
  if(k==0)
  printf("yes");
  else
- printf("no");
+ printf("No");
 }
