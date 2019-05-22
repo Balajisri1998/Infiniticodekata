@@ -7,6 +7,11 @@ void main()
 {
 int i,n,a,c=0;
 scanf("%d",&n);
+if(n<=0)
+{
+printf("Invalid");
+exit(1);
+}
 i=arms(n,c);
 if(i==1)
 {
