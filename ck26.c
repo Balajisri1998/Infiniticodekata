@@ -1,8 +1,14 @@
 #include<stdio.h>
+#include<stdlib.h>
 void main()
 {
  int t=0,n,z,np=0,i,j;
  scanf("%d %d",&n,&z);
+ if(n>z)
+ {
+ printf("Invalid");
+ exit(1);
+ }
  for(j=n+1;j<z;j++)
  {
  np=0;
