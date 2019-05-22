@@ -4,7 +4,7 @@ void main()
 {
 unsigned long n,z=0,t,a[10000],i,j;
 scanf("%lu",&n);
-if(n<1||n>100000)
+if(n<1||n>1000)
 {
 printf("Invalid");
 exit(1);
