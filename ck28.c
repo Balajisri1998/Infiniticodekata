@@ -6,6 +6,11 @@ void main()
 {
 int i,o,p=0,n,q,a;
 scanf("%d %d",&n,&q);
+if(n<=0||q<=0)
+{
+printf("Invalid");
+exit(1);
+}
 for(o=n+1;o<q;o++)
 {
  i=arms(o);
