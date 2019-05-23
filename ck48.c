@@ -1,10 +1,10 @@
 #include<stdio.h>
 void main()
 {
- int a,b;
- scanf("%d %d",&a,&b);
- a=a^b;
- b=a^b;
- a=a^b;
- printf("%d %d",a,b);
+ int y,z;
+ scanf("%d %d",&y,&z);
+ y=y^z;
+ z=y^z;
+ y=y^z;
+ printf("%d %d",y,z);
 }
