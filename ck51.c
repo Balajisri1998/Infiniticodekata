@@ -4,8 +4,8 @@
 void main()
 {
 char s[100];
-int n,i;
-gets(s);
+int n,i=0;
+scanf("%s",&s);
 scanf("%d",&n);
 if(n<=0)
 {
@@ -14,7 +14,13 @@ exit(1);
 }
 while(n>0)
 {
-puts(s);
+if(i==0)
+{
+printf("%s",s);
+i++;
+}
+else
+printf("\n%s",s);
 n--;
 }
 }
