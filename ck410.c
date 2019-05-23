@@ -3,7 +3,6 @@
 void main()
 {
 int t=0,n,i=0,f=1,f1=0;
-clrscr();
 scanf("%d",&n);
  if(n<=0)
  {
